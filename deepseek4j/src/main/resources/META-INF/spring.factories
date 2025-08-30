@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+top.aoyudi.starter.DeepSeekAutoConfiguration,\
+top.aoyudi.rag.config.RagAutoConfiguration
