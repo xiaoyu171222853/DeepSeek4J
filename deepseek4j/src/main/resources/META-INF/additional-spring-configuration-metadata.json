@@ -1,0 +1,22 @@
+{
+  "properties": [
+    {
+      "name": "deepseek.apiKey",
+      "type": "java.lang.String",
+      "description": "DeepSeek的APIKEY",
+      "defaultValue": "sk-xxx"
+    },
+    {
+      "name": "deepseek.rag.chunkSize",
+      "type": "java.lang.Integer",
+      "description": "字符文本分割器文本块大小（字符数）",
+      "defaultValue": 1000
+    },
+    {
+      "name": "deepseek.rag.chunkOverlap",
+      "type": "java.lang.Integer",
+      "description": "字符文本分割器文本块重叠大小（字符数）",
+      "defaultValue": 200
+    }
+  ]
+}
